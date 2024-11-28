@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapics.com/css2?famliy=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+
+}
+
+body {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.logbod{
+    
+    background: url("./assets/BG.jpg");
+    background-size: cover;
+    
+}
+
+
+.container{
+    width: 100%;
+    
+    background: gray;
+    border: 2px solid rgba(255, 255, 255, alpha.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color:  black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.container p{
+    font-size: 36px;
+    text-align: center;
+}
+
+.logo img{
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background: url("./assets/BG.jpg");
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: purple;
+}
+
+nav ul li a {
+    color: gray;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+.LO{
+    font-size: 22px;
+    margin: auto 10px;
+
+}
+
+.sect {
+    padding-top: 100px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sect p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sect img {
+    max-width: 130% !important;
+    width: 100%;
+    align-items: center;
+}
+
+section {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: violet;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section p {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+section .intro .row .col {
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.carousel-inner .carousel-item img{
+    width: 50%;
+    margin: auto;
+    margin-left: 25%;
+    align-items: center;
+}
+
+.artcol{
+    width: 100%;
+    background: gray;
+    border: 2px solid rgba(255, 255, 255, alpha.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 1px 40px;
+    margin-top: 5%;
+    
+}
+
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+    align-content: center;
+}
+
+#hero img {
+    max-width: 130% !important;
+    width: 130%;
+}
+
+#hero .card {
+    box-shadow: 11px 7px 16px;
+    border: 0;
+    text-align: center;
+}
+
+#hero .icon {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#projects .project {
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
